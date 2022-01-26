@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    $names
+    
     @foreach ($names as $name)[
         'nome'=>$resquest->nome,
+        'cliente'=>$id->id
     ]
+    <h2> {{$cliente}} </h2>
         
     @endforeach
 </body>

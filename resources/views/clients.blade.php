@@ -12,7 +12,7 @@
         'nome'=>$resquest->nome,
         'cliente'=>$id->id
     ]
-    <h2> {{$cliente}} </h2>
+    <h2> {{$clients}} </h2>
         
     @endforeach
 </body>

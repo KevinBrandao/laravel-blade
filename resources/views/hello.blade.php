@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Olá, {{ $name }}</h1>
-
+  
+    <h2>Meu trabalho é {{  $job }} </h2>
 </body>
 </html>

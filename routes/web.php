@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $name = 'João Silva';
-    $energy = number;
-return view('index', compact('name', 'job'));
+    $name = ['texte','hjk'];
+    return view('clients', compact($name));
 });

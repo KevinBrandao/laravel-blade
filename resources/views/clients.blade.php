@@ -8,11 +8,9 @@
 </head>
 <body>
     
-    @foreach ($names as $name)[
-        'nome'=>$resquest->nome,
-        'cliente'=>$id->id
-    ]
-    <h2> {{$clients}} </h2>
+    @foreach ($names as $name)
+    
+    <h2> {{$name}} </h2>
         
     @endforeach
 </body>

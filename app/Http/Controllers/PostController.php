@@ -28,3 +28,8 @@ class PostController extends Controller
 //$request->image->storeAs('public','images','file2.jpg');
 //return "deu cerrto";
 
+/**
+ *  $request->image->storeAs('public/images','file1.jpg');
+  *      $request->image->storeAs('public/images','file2.jpg');
+ *       return "deu cerrto";
+ */

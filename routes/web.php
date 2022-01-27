@@ -21,4 +21,4 @@ Route::get('/', function () {
 
 //Route::post('/photo',[PostController::class, 'photo']);
 
-Route::post('/images',[PostController::class, 'image', 'image']);
+Route::post('/images',[PostController::class, 'image']);

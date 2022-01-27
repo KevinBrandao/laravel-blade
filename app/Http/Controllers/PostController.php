@@ -17,9 +17,10 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function photo(Request $request)
+    public function image(Request $request)
     {
-        $request->photo->storeAs('public','file.jpg');
+        $request->image->storeAs('public','file1.jpg');
+        $request->image->storeAs('public','file2.jpg');
         return "deu cerrto";
     }
 }

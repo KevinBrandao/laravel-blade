@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
  
-    return view('photo');
+    return view('image');
 });
 
-Route::post('/photo',[PostController::class, 'photo']);
+//Route::post('/photo',[PostController::class, 'photo']);
+
+Route::post('/images',[PostController::class, 'image', 'image']);

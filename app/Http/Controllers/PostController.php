@@ -19,8 +19,8 @@ class PostController extends Controller
      */
     public function image(Request $request)
     {
-        $request->image->storeAs('public/images','file1.jpg');
-        $request->image->storeAs('public/images','file2.jpg');
+        $request->document->storeAs('public/documents', 'doc');
+     
         return "deu cerrto";
     }
 }

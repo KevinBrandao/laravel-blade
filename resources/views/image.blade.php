@@ -7,12 +7,12 @@
     <title>Imagen</title>
 </head>
 <body>
-    <form action="/images" method="post" enctype="multipart/form-data">
+    <form action="/images1" method="post" enctype="multipart/form-data">
         @csrf
         <label for="conteudo">Enviar imagem 1:</label>
-        <input type="file" name="image" accept="images/*">  <br>
+        <input type="file" name="image1" accept="images/*">  <br>
         <label for="conteudo">Enviar imagem 2:</label> 
-        <input type="file" name="image" accept="images/*">  <br><br><br>
+        <input type="file" name="image2" accept="images/*">  <br><br><br>
           <button type="submit">Enviar imagem 1 e 2</button>
      </form>
 </body>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $name = ['texte','hjk'];
-    return view('clients', compact($name));
+ 
+    return view('photo');
 });
+
+Route::post('/photo',[PostController::class, 'photo']);
